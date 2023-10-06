@@ -1,0 +1,43 @@
+{
+  "name": "react-json-view-lite-benchmark",
+  "homepage": ".",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "node ./node_modules/react-scripts/bin/react-scripts.js build"
+  },
+  "dependencies": {
+    "@types/node": "20.8.2",
+    "@types/react": "18.2.24",
+    "@types/react-dom": "18.2.8",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "5.2.2",
+    "react-component-benchmark": "^2.0.0",
+    "@types/react-component-benchmark": "^1.0.1",
+    "react-json-view-lite": "1.1.0",
+    "react-json-inspector": "7.1.1",
+    "react-json-pretty": "2.2.0",
+    "react-json-tree": "0.18.0",
+    "react-json-tree-viewer": "0.0.7",
+    "react-json-view": "1.21.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-object-rest-spread": "7.8.3"
+  },
+  "packageManager": "yarn@3.6.3",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
